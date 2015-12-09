@@ -7,7 +7,7 @@ tags: [python, web]
 ---
 {% include JB/setup %}
 
-> this is from my old blog on wordpress. For convenience, I migrated it without much modification.
+> This is from my old blog on wordpress. For convenience, I migrated it without much modification.
 
 I want to put a real-world project on production and people can use it and give feedback. That’s why I want to deploy my flask project. The address for the new site is: http://115.159.82.193/(it is not available right now).
 
@@ -17,9 +17,15 @@ At first I thought, there isn’t much difference between the testing environmen
 
 But, it appeared that it doesn’t work that way. The error message said the socket port is already taken. And I don’t know which process is using it. Thus, I seek for another solution:Apache2.
 
-I have used Apache2 in my wordpress project. everything works fine: No tricky set up, just one more config file, few modifications on the “permission” config file, load the new config, restart the application and DONE.
+I have used Apache2 in my wordpress project. everything works fine: No tricky set up, just:
 
-Except this time we have to add one “mod_wsgi” stuff, and it drives me really mad.
+1. one more config file
+2. few modifications on the “permission” config file
+3. load the new config
+4. restart the application 
+5. DONE.
+
+Except this time we have to add one “mod_wsgi” stuff, and it drives me crazy.
 
 Here are five more links which helps a lot during the process:
 
