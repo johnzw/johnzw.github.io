@@ -13,6 +13,7 @@ tagline: truth and love
 ### Who am I
 * a normal human being, who wants to do something
 * [resume]({{johnzw.github.io}}/assets/resume_wenzhong.pdf)
+* github: [johnzw](https://github.com/johnzw)
 
 ### History posts
 <ul class="posts">
